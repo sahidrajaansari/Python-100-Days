@@ -21,3 +21,30 @@
 # print("String Concatenation is done with the \"+\" sign.")
 # print('e.g. print(\"Hello \" + \"world\")')
 # print("New lines can be created with a backslash and n.")
+
+# Task-6
+# n=3
+# while(n):
+#     input("What is your name?\n->")
+#     n-=1
+
+# Task-7
+# name = input("What is your name?\n->")
+
+# Task-8
+# There are two variables, a and b from input
+# a = input()
+# b = input()
+# # 🚨 Don't change the code above ☝️
+# ####################################
+# # Write your code below this line 👇
+# temp=a
+# a=b
+# b=temp
+# # 🚨 Don't change the code below 👇
+# print("a: " + a)
+# print("b: " + b)
+
+# Task-9
+# name = input("What is your name?\n->")
+# print(str(len(name)) + " " + name)
