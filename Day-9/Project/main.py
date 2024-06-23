@@ -1,4 +1,5 @@
 import random
+import os
 
 listOfBidders={}
 def getBidder():
@@ -13,6 +14,8 @@ while(bidderAvilable):
     check=str(input("Are there more bidders Avilable? 1.Yes 2.No \n->"))
     if(check.lower()=='no'):
         bidderAvilable=False
+    else:
+        os.system('cls' if os.name == 'nt' else 'clear')
 
 winningBid = random.uniform(0, 1)
 print("The winning bid is:", winningBid)
